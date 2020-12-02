@@ -1,0 +1,12 @@
+Updating
+
+apt-update && apt upgrade : to update
+apt install python-pip 
+
+install github impacket(clone with https)
+
+go to opt,
+
+git clone 'paste'
+cd impacket/
+pip install.

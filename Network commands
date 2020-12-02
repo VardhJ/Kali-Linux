@@ -1,0 +1,8 @@
+Network Commands
+
+ifconfig : basic details about network
+
+ping 100.000.000.000 : to communicate, understand if other ip is active
+arp -a : shows mac addresses as well
+netsat -ano : shows active connections running on your machine
+route : print your routing cable

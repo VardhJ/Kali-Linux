@@ -1,0 +1,19 @@
+Viewing, creating and editing
+
+use echo to write a file :
+
+echo "hey" > hey.txt
+cat hey.txt
+  hey
+
+echo "hey again" > hey.txt
+cat hey.txt
+  hey again
+
+echo "hey again again" >> hey.txt
+cat hey.txt
+  hey again
+  hey again again
+ 
+nano ...... to create scripts with terminal
+gedit...... to create scripts with .txt

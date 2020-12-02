@@ -1,0 +1,16 @@
+Kali basics: 
+
+pwd    :     Print Working Directory (To display where we're at)
+cd ..  :     Change Directory (Go back a step(..))
+ls     :     List Elements in current directory
+ls -la :     Show Hidden elements
+mkdir  :     Make Directory
+rmdir  :     Remove Directory
+rm     :     Remove
+cp     :     Copy paste(cp ex.txt *move to*Downloads/)
+mv     :     Move to(mv ex.txt Downloads/)
+locate :     To locate anything
+man    :     Use as man ls (it will give info about ls)
+
+
+

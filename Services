@@ -1,0 +1,11 @@
+Starting and stopping kali services
+
+
+Apache 2 server :
+ service apache2 start
+
+To start server :
+ python -m SimpleHTTPServer 8080
+
+systemctl enable postresqyl
+ To make the server run even after rebooting(for metasploit)

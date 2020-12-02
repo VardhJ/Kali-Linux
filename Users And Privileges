@@ -1,0 +1,12 @@
+Users and Privileges
+
+
+rwx : Read, write, execute
+
+first group : owner of file
+second group : permissions
+
+-(temp is usally full rwx)
+
+To give full access : chmod 777 (or +x/rwx)
+To add user : adduser (enter)
