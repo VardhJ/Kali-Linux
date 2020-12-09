@@ -3,7 +3,7 @@ Kali basics:
 pwd    :     Print Working Directory (To display where we're at)
 cd ..  :     Change Directory (Go back a step(..))
 ls     :     List Elements in current directory
-ls -la :     Show Hidden elements
+ls -la :     Show Hidden elements with long list
 mkdir  :     Make Directory
 rmdir  :     Remove Directory
 rm     :     Remove
@@ -11,6 +11,58 @@ cp     :     Copy paste(cp ex.txt *move to*Downloads/)
 mv     :     Move to(mv ex.txt Downloads/)
 locate :     To locate anything
 man    :     Use as man ls (it will give info about ls)
+
+touch master : Make file called master
+touc -am : Modify time of file modification
+head -10 file : shows first 10 lines of file
+tail -10 file : shows last 10 lines of file
+
+
+
+FILE SYSTEM HIERARCHY(FSH)
+
+/root/ : Home directory for the root user.
+
+/bin/ : Contains commands that may be used by sys admin and users
+
+/boot/ : Contains everything required for the boot process
+	 Stores data that is used before the kernel begins to excute user mode programs
+	 OS kernelis located in either / or /boot
+
+/dev/ : Location of special or device files, all hardware files are present here
+
+/lib/ : Contains shared library images needed to boot system and run commands in the
+	root file system
+
+/home/ : User home directories
+
+/etc/ : Contains config files(passwords,many folders)
+
+/media/ : Mount point for removable media
+
+/mnt/ : This is where sys admin may temporarily mount a filesys as needed
+
+/opt/ : Add-on application software packages
+
+/srv/ : site-specific data stored in sys. If using Apache HTTP server, 
+	here is where you'd likely store website's files
+
+/sbin/ : Utilities for sys admin
+
+/tmp/ : must be made available for programs that require temp files, files get 
+	deleted when system is rebooted
+
+/usr/ : shareable, read-only data. Contains applications and files used by users.
+	
+/var/ : contains variable data files, admin and logging data and temp files
+
+/run/ : Contains sys info data describing system since it was booted
+
+/lost+found/ : Recovering files which are not properly closed due to reasons.
+
+/proc/ : special files that represt sys and process info
+
+
 
 
 
