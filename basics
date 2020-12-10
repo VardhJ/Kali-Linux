@@ -1,7 +1,8 @@
 Kali basics: 
 
 pwd    :     Print Working Directory (To display where we're at)
-cd ..  :     Change Directory (Go back a step(..))
+cd ..  :     Change Directory (Go back a step(..))(wo .. goes to /)
+cd ~   :     Home directory(Desk,downloads,pictures)
 ls     :     List Elements in current directory
 ls -la :     Show Hidden elements with long list
 mkdir  :     Make Directory
@@ -11,11 +12,28 @@ cp     :     Copy paste(cp ex.txt *move to*Downloads/)
 mv     :     Move to(mv ex.txt Downloads/)
 locate :     To locate anything
 man    :     Use as man ls (it will give info about ls)
+cat    :     show content of file
+cat > new.txt : to make a file and enter content
+grep   :     locate whatever you want in a file
 
 touch master : Make file called master
+vim master   : ;wq to end, vim makes file
 touc -am : Modify time of file modification
 head -10 file : shows first 10 lines of file
 tail -10 file : shows last 10 lines of file
+
+ps      : shows processes(with PID(process ID))
+kill <PID> : kills processes (kill -9 <PID> for forceful kill)
+
+
+
+PUT ; TO USE MORE THAN ONE COMMAND IN 1 LINE IN TERMINAL
+PUT $ TO RUN A PROCESS/COMMAND IN BACKGROUND W/O AFFECTING TERMINAL
+PUT $$ TO CHECK FOR ERRORS
+PUT # TO COMMENT
+USE history TO GET HISTORY OF TERMINAL
+
+
 
 
 
